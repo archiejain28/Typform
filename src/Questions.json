@@ -1,0 +1,32 @@
+{
+  "questionsList": [
+    {
+      "index": 1,
+      "title": "What's your first name?*",
+      "responseType":"text"
+    },
+    {
+      "index": 2,
+      "title": "and your last name? *",
+      "responseType":"text"
+    },
+    {
+      "index": 3,
+      "title": "What industry is your company in?*",
+      "label": "We will personalize your learning experience accordingly",
+      "responseType":"select"
+    },
+    {
+      "index": 4,
+      "title": "Your role in your company?*",
+      "label":"We want to understand how you spend your time right now.",
+      "responseType":"checkbox"
+    },
+    {
+      "index": 5,
+      "title": "what's your professional goal for the next 12 months?*",
+      "label":"Choose 2",
+      "responseType":"checkbox"
+    }
+  ]
+}

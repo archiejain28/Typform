@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 35px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+input{
+    color: #fff;
+    caret-color: red;
+    margin:40px 0 0 50px;
+    font-size: 40px;
+    height: 100px;
+    border: none;
+    border-bottom: 2px solid gainsboro;
+    background-color: transparent;
+    padding-top: 0;
+    padding-left: 0;
+    line-height: 1em;
+} 
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+span::after{
+    content: "\00a0";
+}
+button{
+    margin:30px 0 0 50px;
+    height: 60px;
+    width: 120px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Questrial', sans-serif !important;
+    color: #fff;
+    border: none;
+    border-radius: 7px ;
+    background-color:rgb(0, 119, 255);
+}
+
+/* .qus{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+} */
